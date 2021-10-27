@@ -7,8 +7,8 @@ This app allows you to add urls and serve dummy json responses. It contains two 
 Complete the following steps to run this app:
 
 * Ensure golang is installed on your machine
-* Build the app using `go build -o bin/hiscox-mock-api`
-* Run the app using `./bin/hiscox-mock-api`
+* Build the app using `go build -o bin/mock-api-server`
+* Run the app using `./bin/mock-api-server`
 
 The dummy api will now be available on `localhost:8080`
 
