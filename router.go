@@ -9,7 +9,7 @@ func RegisterRoutes(mux *mux.Router) {
 	mux.Handle(
 		"/api/test",
 		&h.DummyHandler{FilePath: "./schemas/test.json"},
-	)
+	).Methods("GET")
 
 	// Error Routes
 	mux.Handle(
