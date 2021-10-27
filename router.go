@@ -21,6 +21,7 @@ func RegisterRoutes(mux *mux.Router) {
 		"/api/error/404",
 		&h.DummyErrorHandler{Status: 404},
 	)
+
 	mux.Handle(
 		"/api/error/422",
 		&h.DummyErrorHandler{Status: 422},
